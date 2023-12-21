@@ -1,0 +1,14 @@
+<h1>Simple Home Page</h1>
+
+<p>
+Warm Welcome to my Home page
+</p>
+
+<%= form_for Test do |f| %>
+    <%= render 'layouts/error_messages', f: f.object %>
+        
+    <!-- form_for @object, html: { multipart: true }, do |f| -->
+    <!-- form_for @object, html: { class: "classname" }, do |f| -->
+
+    
+<% end %>
